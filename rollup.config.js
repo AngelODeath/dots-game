@@ -118,7 +118,7 @@ export default {
         sourcemap: true,
         // sourcemap: !production,
         format: "iife",
-        name: "ts-practive-app",
+        name: "dots-game-app",
         file: "./public/bundle.js",
     },
     watch: {
