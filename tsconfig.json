@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+        "composite": true,
+        "module": "esNext",
+        "moduleResolution": "nodenext",
+        "outDir": "./public",
+        "target": "esnext",
+        "sourceMap": false,
+        "rootDir": "src",
+        "baseUrl": ".",
+        "allowJs": true,
+        "checkJs": true,
+
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "allowSyntheticDefaultImports": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true,
+        "useDefineForClassFields": true,
+        "resolveJsonModule": true,
+
+        "lib": ["es6", "dom"],
+        "types": [],
+        "typeRoots": ["node_modules/@types"]
+    },
+    "extends": "@tsconfig/svelte/tsconfig.json",
+    "include": [
+        "src/**/*.d.ts",
+        "src/**/*.ts",
+        "src/**/*.js",
+        "src/**/*.svelte",
+        "node_modules/@types"
+    ]
+}
